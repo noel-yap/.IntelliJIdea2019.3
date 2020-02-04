@@ -1,0 +1,47 @@
+<templateSet group="Java">
+  <template name="logger" value="private static final Logger LOGGER = LoggerFactory.getLogger($CLASSNAME$.class);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="info" value="LOGGER.info(&quot;$END$&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="LOGGER.debug(&quot;$END$&quot;);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="// TODO: $END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="fixme" value="// FIXME: $END$" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="SCALA" value="true" />
+    </context>
+  </template>
+  <template name="var" value="final $CLASS_NAME$ $VARIABLE_NAME$$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VARIABLE_NAME" expression="" defaultValue="camelCase(CLASS_NAME)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ctor" value="public $CLASS_NAME$(final $ARG_TYPE$ $ARG_NAME$) {&#10;  this.$ARG_NAME$ = $ARG_NAME$;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="className()" alwaysStopAt="true" />
+    <variable name="ARG_TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARG_NAME" expression="" defaultValue="camelCase(ARG_TYPE)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

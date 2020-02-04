@@ -1,0 +1,15 @@
+<templateSet group="Spring">
+  <template name="bean" value="@Bean(name = &quot;$FUNCTION_NAME$&quot;)&#10;@ConditionalOnMissingBean&#10;public $CLASS_NAME$ $FUNCTION_NAME$($END$) {&#10;  return new $CLASS_NAME$();&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION_NAME" expression="" defaultValue="camelCase(CLASS_NAME)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="config" value="@Configuration&#10;public class $CLASS_NAME$ {&#10;  $END$&#10;}&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="className()" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

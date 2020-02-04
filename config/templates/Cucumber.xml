@@ -1,0 +1,23 @@
+<templateSet group="Cucumber">
+  <template name="given" value="@Given(&quot;$STEP_NAME$&quot;)&#10;public void $FUNCTION_NAME$() {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="STEP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION_NAME" expression="" defaultValue="camelCase(STEP_NAME)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="when" value="@When(&quot;$STEP_NAME$&quot;)&#10;public void $FUNCTION_NAME$() {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="STEP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION_NAME" expression="" defaultValue="camelCase(STEP_NAME)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="then" value="@Then(&quot;$STEP_NAME$&quot;)&#10;public void $FUNCTION_NAME$() {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="STEP_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FUNCTION_NAME" expression="" defaultValue="camelCase(STEP_NAME)" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

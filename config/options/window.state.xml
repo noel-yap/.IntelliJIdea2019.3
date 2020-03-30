@@ -5,7 +5,7 @@
     <location key="com.intellij.ide.util.TipDialog.0.0.3440.1440" x="1294" y="604" />
     <location key="SettingsEditor.0.0.3440.1440" x="1499" y="79" />
     <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.3440.1440" x="1718" y="305" />
-    <location key="find.popup.0.0.3440.1440" x="1425" y="493" />
+    <location key="find.popup.0.0.3440.1440" x="970" y="460" />
     <location key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.3440.1440" x="1385" y="489" />
     <location key="CommitChangelistDialog2.0.0.3440.1440" x="2061" y="514" />
     <location key="search.everywhere.popup.0.0.3440.1440" x="1315" y="394" />
@@ -31,20 +31,23 @@
     <location key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.3440.1440" x="1671" y="482" />
     <location key="#Feature:_ping-smoke-test.0.0.3440.1440" x="1805" y="407" />
     <location key="VCS.EditChangelistDialog.0.0.3440.1440" x="1994" y="688" />
+    <location key="find.popup.3440.0.3440.1440" x="4794" y="389" />
+    <location key="find.popup.0.0.1920.1080" x="597" y="292" />
+    <location key="find.popup.0.0.2560.1080" x="1163" y="285" />
     <size key="FileChooserDialogImpl.0.0.3440.1440" width="424" height="484" />
     <size key="SettingsEditor.0.0.3440.1440" width="1557" height="835" />
-    <size key="GridCell.Tab.0.left.0.0.3440.1440" width="2395" height="369" />
-    <size key="GridCell.Tab.0.center.0.0.3440.1440" width="2395" height="369" />
-    <size key="GridCell.Tab.0.right.0.0.3440.1440" width="2395" height="369" />
-    <size key="GridCell.Tab.0.bottom.0.0.3440.1440" width="2395" height="369" />
-    <size key="find.popup.0.0.3440.1440" width="754" height="538" />
+    <size key="GridCell.Tab.0.left.0.0.3440.1440" width="3030" height="402" />
+    <size key="GridCell.Tab.0.center.0.0.3440.1440" width="3030" height="402" />
+    <size key="GridCell.Tab.0.right.0.0.3440.1440" width="3030" height="402" />
+    <size key="GridCell.Tab.0.bottom.0.0.3440.1440" width="3030" height="402" />
+    <size key="find.popup.0.0.3440.1440" width="1825" height="757" />
     <size key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog.0.0.3440.1440" width="524" height="484" />
     <size key="CommitChangelistDialog2.0.0.3440.1440" width="1178" height="859" />
     <size key="search.everywhere.popup.0.0.3440.1440" width="672" height="678" />
-    <size key="GridCell.Tab.1.left.0.0.3440.1440" width="2395" height="369" />
-    <size key="GridCell.Tab.1.center.0.0.3440.1440" width="2395" height="369" />
-    <size key="GridCell.Tab.1.right.0.0.3440.1440" width="2395" height="369" />
-    <size key="GridCell.Tab.1.bottom.0.0.3440.1440" width="2395" height="369" />
+    <size key="GridCell.Tab.1.left.0.0.3440.1440" width="3030" height="292" />
+    <size key="GridCell.Tab.1.center.0.0.3440.1440" width="3030" height="292" />
+    <size key="GridCell.Tab.1.right.0.0.3440.1440" width="3030" height="292" />
+    <size key="GridCell.Tab.1.bottom.0.0.3440.1440" width="3030" height="292" />
     <size key="StructurePopup.0.0.3440.1440" width="660" height="524" />
     <size key="#com.intellij.ide.util.MemberChooser.0.0.3440.1440" width="374" height="575" />
     <size key="#com.intellij.unscramble.UnscrambleDialog.0.0.3440.1440" width="695" height="707" />
@@ -65,9 +68,36 @@
     <size key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.0.0.3440.1440" width="524" height="502" />
     <size key="#Feature:_ping-smoke-test.0.0.3440.1440" width="681" height="653" />
     <size key="VCS.EditChangelistDialog.0.0.3440.1440" width="260" height="164" />
+    <size key="find.popup.3440.0.3440.1440" width="726" height="590" />
+    <size key="GridCell.Tab.0.left.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.0.center.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.0.right.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.0.bottom.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.1.left.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.1.center.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.1.right.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.1.bottom.3440.0.3440.1440" width="3030" height="455" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1874" height="342" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1874" height="342" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1874" height="342" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1874" height="342" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="1874" height="342" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="1874" height="342" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="1874" height="342" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="1874" height="342" />
+    <size key="find.popup.0.0.1920.1080" width="856" height="522" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1080" width="1813" height="254" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1080" width="1813" height="254" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1080" width="1813" height="254" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1080" width="1813" height="254" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1080" width="1813" height="314" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1080" width="1813" height="314" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1080" width="1813" height="314" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1080" width="1813" height="314" />
+    <size key="find.popup.0.0.2560.1080" width="726" height="522" />
   </component>
   <component name="WindowManager">
-    <frame x="393" y="169" width="2873" height="1167" extendedState="1" />
+    <frame x="597" y="56" width="1859" height="980" extendedState="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -91,6 +121,15 @@
       <screen x="0" y="27" width="3440" height="1413" />
     </state>
     <state x="1502" y="347" width="424" height="484" key="FileChooserDialogImpl/0.27.3440.1413" timestamp="1580854971436" />
+    <state x="1986" y="913" width="400" height="122" key="ProcessPopupWindow" timestamp="1585587456592">
+      <screen x="0" y="27" width="2560" height="1053" />
+    </state>
+    <state x="1986" y="913" width="400" height="122" key="ProcessPopupWindow/0.27.2560.1053" timestamp="1585587456592" />
+    <state width="298" height="298" key="Vcs.CompareWithSelectedRevision.Popup" timestamp="1584993223297">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="298" height="298" key="Vcs.CompareWithSelectedRevision.Popup/0.27.1920.1053" timestamp="1584993223297" />
+    <state width="300" height="298" key="Vcs.CompareWithSelectedRevision.Popup/0.27.3440.1413/3440.0.3440.1440" timestamp="1581621137934" />
     <state x="1719" y="589" key="WELCOME_SCREEN" timestamp="1580853250006">
       <screen x="0" y="27" width="3440" height="1413" />
     </state>

@@ -1,13 +1,18 @@
 <keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
+  <action id="FileChooser.TogglePathShowing" />
   <action id="GotoTest" />
   <action id="Images.ShowThumbnails" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
   </action>
+  <action id="ParameterInfo" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl page_up" />
+  </action>
+  <action id="Print">
+    <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="RunDashboard.ShowConfigurations" />
   <action id="Scala.ShowImplicits">

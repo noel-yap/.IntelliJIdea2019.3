@@ -1,6 +1,6 @@
 config/event-log-whitelist
 config/idea.key
-config/options
+config/options/*
 config/plugins
 config/port
 config/port.lock

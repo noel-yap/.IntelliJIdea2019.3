@@ -29,7 +29,7 @@
       <option name="SCALA" value="true" />
     </context>
   </template>
-  <template name="var" value="final $CLASS_NAME$ $VARIABLE_NAME$" description="" toReformat="false" toShortenFQNames="true">
+  <template name="var" value="$CLASS_NAME$ $VARIABLE_NAME$" description="" toReformat="false" toShortenFQNames="true">
     <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VARIABLE_NAME" expression="" defaultValue="camelCase(CLASS_NAME)" alwaysStopAt="true" />
     <context>

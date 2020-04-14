@@ -44,7 +44,6 @@ com.intellij.thymeleaf
 com.intellij.uiDesigner
 com.intellij.velocity
 com.jetbrains.plugins.webDeployment
-com.jmg.codecomment
 hg4idea
 org.coffeescript
 org.intellij.grails

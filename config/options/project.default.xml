@@ -25,7 +25,7 @@
           </method>
         </configuration>
         <configuration default="true" type="JUnit" factoryName="JUnit">
-          <shortenClasspath name="CLASSPATH_FILE" />
+          <shortenClasspath name="ARGS_FILE" />
           <useClassPathOnly />
           <option name="MAIN_CLASS_NAME" value="" />
           <option name="METHOD_NAME" value="" />
